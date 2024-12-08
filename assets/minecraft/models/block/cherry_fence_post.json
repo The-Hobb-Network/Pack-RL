@@ -1,0 +1,22 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/fence_post",
+	"textures": {
+		"texture": "block/cherry_planks"
+	},
+	"elements": [
+		{
+			"name": "Center post",
+			"from": [6.75, 0, 6.75],
+			"to": [9.25, 16, 9.25],
+			"faces": {
+				"north": {"uv": [6, 0, 10, 16], "texture": "#texture"},
+				"east": {"uv": [6, 0, 10, 16], "texture": "#texture"},
+				"south": {"uv": [6, 0, 10, 16], "texture": "#texture"},
+				"west": {"uv": [6, 0, 10, 16], "texture": "#texture"},
+				"up": {"uv": [6, 6, 10, 10], "texture": "#texture", "cullface": "up"},
+				"down": {"uv": [6, 6, 10, 10], "texture": "#texture", "cullface": "down"}
+			}
+		}
+	]
+}
