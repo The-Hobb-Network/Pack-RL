@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/bricks/bricks_3d_slab_top",
+  "textures": {
+    "bottom": "minecraft:block/bricks/bricks_darker",
+    "side": "minecraft:block/bricks/bricks_darker",
+    "top": "minecraft:block/bricks/bricks_darker",
+	"all": "minecraft:block/bricks/bricks_darker"
+  }
+}

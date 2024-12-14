@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/bricks/bricks_3d",
+  "textures": {
+    "missing": "minecraft:block/bricks/bricks_darker"
+  }
+}

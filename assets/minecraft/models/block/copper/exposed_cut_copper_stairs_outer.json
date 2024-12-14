@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/bricks/bricks_3d_stairs_outer",
+  "textures": {
+    "bottom": "minecraft:block/bricks/bricks_dark",
+    "side": "minecraft:block/bricks/bricks_dark",
+    "top": "minecraft:block/bricks/bricks_dark",
+    "all": "minecraft:block/bricks/bricks_dark"
+  }
+}
