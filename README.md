@@ -6,3 +6,6 @@
 This is the official resource pack for the Hobb Network's Rising Legacy gamemode. 
 This pack is made to enhance the gameplay experience on the server and to make it more enjoyable for the players. 
 If you want to **assist us** please first join our [Discord](https://dc.hobbnetwork.net) and apply for a Creator role.
+
+### Installation
+Download the script made by CastilloNLDE
