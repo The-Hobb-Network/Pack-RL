@@ -1,5 +1,6 @@
 # The Hobb Network - Rising Legacy
 [![Author](https://img.shields.io/badge/Author-Luuk%20Kablan-purple)](https://github.com/LuckyLuuk12)
+[![Collaborator](https://img.shields.io/badge/Collaborator-C.M.R.%20Beute-purple)](https://github.com/CastilloNLDE)
 ![Type](https://img.shields.io/badge/Type-Resource%20Pack-gree)
 
 ### Description
