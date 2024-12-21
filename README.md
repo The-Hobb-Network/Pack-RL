@@ -19,7 +19,7 @@ perform automatic on-boot updating for you.
 7. On Actions: Click new, select “Action start a program” and select the script location.
 8. Add below arguments, to allow powershell to push the actions in the script
 ```ps1
--ExecutionPolicy Bypass -File "<path_to_the_script.ps1>”` 
+-ExecutionPolicy Bypass -File "<path\to\the\script.ps1>”` 
 ```
 9. Click OK
 10. Skip conditions
