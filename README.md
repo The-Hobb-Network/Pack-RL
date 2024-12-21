@@ -13,7 +13,7 @@ perform automatic on-boot updating for you.
 1. Open Task Scheduler
 2. Create Task|
 3. On General: Give it a name and description (optional)
-4. On Triggers: Click new, and select “Begin the task at startup”
+4. On Triggers: Click new, and select “Begin the task at logon”
 5. Make sure all boxes are unchecked, except the “enabled” one.
 6. Click OK
 7. On Actions: Click new, select "Action start a program" and type "Powershell.exe" under Program/Script
@@ -24,3 +24,6 @@ perform automatic on-boot updating for you.
 9. Click OK
 10. Skip conditions
 11. On Settings: keep everything by default, but uncheck the box “stop the task if it runs longer than..”
+
+Note that when your computer boots it opens a terminal / command prompt. DO NOT CLICK THIS AWAY!
+This is the script running and updating the resource pack for you. It will close itself when done.
