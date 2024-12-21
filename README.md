@@ -16,7 +16,7 @@ perform automatic on-boot updating for you.
 4. On Triggers: Click new, and select “Begin the task at startup”
 5. Make sure all boxes are unchecked, except the “enabled” one.
 6. Click OK
-7. On Actions: Click new, select “Action start a program” and select the script location.
+7. On Actions: Click new, select "Action start a program" and type "Powershell.exe" under Program/Script
 8. Add below arguments, to allow powershell to push the actions in the script
 ```ps1
 -ExecutionPolicy Bypass -File "<path\to\the\script.ps1>”` 
