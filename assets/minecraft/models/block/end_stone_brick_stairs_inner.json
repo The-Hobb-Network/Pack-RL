@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/bricks/bricks_3d_stairs_inner",
+  "textures": {
+    "bottom": "minecraft:block/end_stone_bricks",
+    "side": "minecraft:block/end_stone_bricks",
+    "top": "minecraft:block/end_stone_bricks",
+    "all": "minecraft:block/end_stone_bricks"
+  }
+}

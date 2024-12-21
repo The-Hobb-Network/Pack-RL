@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/bricks/bricks_3d",
+  "textures": {
+    "all": "minecraft:block/end_stone_bricks"
+  }
+}
