@@ -8,4 +8,19 @@ This pack is made to enhance the gameplay experience on the server and to make i
 If you want to **assist us** please first join our [Discord](https://dc.hobbnetwork.net) and apply for a Creator role.
 
 ### Installation
-Download the script made by CastilloNLDE
+You can easily use the script manually or use below instructions to
+perform automatic on-boot updating for you.
+1. Open Task Scheduler
+2. Create Task|
+3. On General: Give it a name and description (optional)
+4. On Triggers: Click new, and select “Begin the task at startup”
+5. Make sure all boxes are unchecked, except the “enabled” one.
+6. Click OK
+7. On Actions: Click new, select “Action start a program” and select the script location.
+8. Add below arguments, to allow powershell to push the actions in the script
+```ps1
+-ExecutionPolicy Bypass -File "<path_to_the_script.ps1>”` 
+```
+9. Click OK
+10. Skip conditions
+11. On Settings: keep everything by default, but uncheck the box “stop the task if it runs longer than..”
