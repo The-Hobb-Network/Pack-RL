@@ -4,7 +4,7 @@
 		"layer0": "minecraft:item/leather_horse_armor"
 	},
 	"overrides": [
-		{"predicate": {"custom_model_data":1}, "model": "item/custom/vehicles/1"},
+		{"predicate": {"custom_model_data":1}, "model": "item/custom/vehicles/cars/1"},
 		{"predicate": {"custom_model_data":2}, "model": "item/custom/vehicles/2"},
 		{"predicate": {"custom_model_data":3}, "model": "item/custom/vehicles/3"},
 		{"predicate": {"custom_model_data":4}, "model": "item/custom/vehicles/4"}
