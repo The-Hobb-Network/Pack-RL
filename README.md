@@ -8,7 +8,7 @@ This is the official resource pack for the Hobb Network's Rising Legacy gamemode
 This pack is made to enhance the gameplay experience on the server and to make it more enjoyable for the players. 
 If you want to **assist us** please first join our [Discord](https://dc.hobbnetwork.net) and apply for a Creator role.
 
-### Installation
+### Automatic Installation
 You can easily use the script manually or use below instructions to
 perform automatic on-boot updating for you.
 1. Open Task Scheduler
@@ -28,3 +28,15 @@ perform automatic on-boot updating for you.
 
 Note that when your computer boots it opens a terminal / command prompt. DO NOT CLICK THIS AWAY!
 This is the script running and updating the resource pack for you. It will close itself when done.
+
+### What is allowed?
+- You are allowed to use this resource pack on the Hobb Network's Rising Legacy server.
+- If you want to use this resource pack (for commercial purposes), contact us first. We are willing to discuss this.
+- If you're working on a server similar to ours, why aren't you on our development team? Contact us please :)
+- You are allowed to view the contents and make suggestions, or addons. We are even willing to accept them if they are good enough.
+
+### What is not allowed?
+- You are not allowed to claim this resource pack as your own.
+- You are not allowed to modify this resource pack.
+- You are not allowed to (re)distribute this resource pack without our permission.
+- You are not allowed to use this resource pack without our permission.
