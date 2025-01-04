@@ -1,6 +1,7 @@
 {
-  "parent": "minecraft:block/bricks/bricks_3d",
+  "parent": "minecraft:block/bricks/diagonal_bricks_3d",
   "textures": {
-    "all": "minecraft:block/bricks/bricks_darkest"
+    "all": "minecraft:block/bricks/diagonal_bricks",
+	"particle": "minecraft:block/bricks/diagonal_bricks"
   }
 }
