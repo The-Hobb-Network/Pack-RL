@@ -1,7 +1,7 @@
 #
 # Minecraft Texure Pack (THN RL) - Automatic check and installation
 # Author: C.M.R. Beute
-# Version: v0.7 - 21-12-2024 00:57
+# Version: v0.8 - 05-01-2025 00:11
 #
 
 #
@@ -54,13 +54,20 @@ try {
     # Log start
     Write-Log -Status "Info" -Message "Update check started."
 
-    # Get the latest commit ID from GitHub with authentication
-    $headers = @{ Authorization = "token $token"; "User-Agent" = "PowerShell" }
+    # Build headers based on token availability
+    $headers = @{ "User-Agent" = "PowerShell" }
+    if ($token -ne "") {
+        $headers["Authorization"] = "token $token"
+    }
+
+    # Get the latest commit ID from GitHub
     $response = Invoke-WebRequest -Uri $url -Headers $headers
 
-    # Check remaining rate limit
-    $rateLimitRemaining = $response.Headers["X-RateLimit-Remaining"]
-    Write-Log -Status "Info" -Message "Rate limit remaining: $rateLimitRemaining"
+    # Check remaining rate limit if token is used
+    if ($token -ne "") {
+        $rateLimitRemaining = $response.Headers["X-RateLimit-Remaining"]
+        Write-Log -Status "Info" -Message "Rate limit remaining: $rateLimitRemaining"
+    }
 
     # Parse JSON response body to extract commit ID
     $responseBody = $response.Content | ConvertFrom-Json
