@@ -1,0 +1,53 @@
+name: Create Zip and Release on Push
+
+on:
+  push:
+    branches:
+      - main  # Runs when the main branch is updated
+
+jobs:
+  create-zip:
+    name: Create and Upload Zip
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Create ZIP (without extra folder)
+        run: |
+          zip -r THN_RL.zip . -x ".git/*" ".github/*" ".gitignore" "README.md"  # Exclude unnecessary files
+
+      - name: Upload ZIP as an Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: THN_RL
+          path: THN_RL.zip
+          retention-days: 7  # Keeps the zip file for 7 days
+
+  release:
+    name: Create GitHub Release
+    needs: create-zip
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write  # Required to create a release
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Download the Zip Artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: THN_RL
+
+      - name: Get Current Date
+        run: echo "RELEASE_TAG=DOWNLOAD" >> $GITHUB_ENV
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ env.RELEASE_TAG }}  # Tag based on timestamp
+          release_name: "Auto Release - ${{ env.RELEASE_TAG }}"
+          body: "This is an automatic release for the latest main branch update."
+          files: THN_RL.zip
