@@ -1,0 +1,26 @@
+{
+  "block.minecraft.cut_copper": "Dark Bricks",
+  "block.minecraft.cut_copper_stairs": "Dark Brick Stairs",
+  "block.minecraft.cut_copper_slab": "Dark Brick Slab",
+  "block.minecraft.exposed_cut_copper": "Darker Bricks",
+  "block.minecraft.exposed_cut_copper_stairs": "Darker Brick Stairs",
+  "block.minecraft.exposed_cut_copper_slab": "Darker Brick Slab",
+  "block.minecraft.weathered_cut_copper": "Gray Bricks",
+  "block.minecraft.weathered_cut_copper_stairs": "Gray Brick Stairs",
+  "block.minecraft.weathered_cut_copper_slab": "Gray Brick Slab",
+  "block.minecraft.oxidized_cut_copper": "Street Bricks",
+  "block.minecraft.oxidized_cut_copper_stairs": "Street Brick Stairs",
+  "block.minecraft.oxidized_cut_copper_slab": "Street Brick Slab",
+  "block.minecraft.purpur_block": "White Bricks",
+  "block.minecraft.purpur_stairs": "White Brick Stairs",
+  "block.minecraft.purpur_slab": "White Brick Slab",
+  "block.minecraft.end_stone_bricks": "Sand Bricks",
+  "block.minecraft.end_stone_brick_stairs": "Sand Brick Stairs",
+  "block.minecraft.end_stone_brick_slab": "Sand Brick Slab",
+  "block.minecraft.cherry_planks": "Metal Block",
+  "block.minecraft.cherry_stairs": "Metal Stairs",
+  "block.minecraft.cherry_slab": "Metal Slab",
+  "block.minecraft.cherry_fence": "Metal Fence",
+  "block.minecraft.cherry_fence_gate": "Metal Fence Gate"
+
+}

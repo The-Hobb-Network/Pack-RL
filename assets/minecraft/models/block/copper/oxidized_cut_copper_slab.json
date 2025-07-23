@@ -1,8 +1,7 @@
 {
-  "parent": "minecraft:block/slab",
+  "parent": "minecraft:block/bricks/diagonal_bricks_3d_slab",
   "textures": {
-    "bottom": "minecraft:block/oxidized_cut_copper",
-    "side": "minecraft:block/oxidized_cut_copper",
-    "top": "minecraft:block/oxidized_cut_copper"
+    "all": "minecraft:block/bricks/diagonal_bricks",
+	"particle": "minecraft:block/bricks/diagonal_bricks"
   }
 }
